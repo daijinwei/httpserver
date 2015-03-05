@@ -1,4 +1,0 @@
-Import('env')
-
-env.Program(target = "httpserver",
-			source = [Glob("*.cpp")])
